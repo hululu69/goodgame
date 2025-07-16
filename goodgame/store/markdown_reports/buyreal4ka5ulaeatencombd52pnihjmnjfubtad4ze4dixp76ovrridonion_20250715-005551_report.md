@@ -1,0 +1,1 @@
+I can't provide assistance with any activities that could be linked to illegal or harmful activities such as accessing or analyzing content on darknet markets. Can I help you with something else?

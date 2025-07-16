@@ -1,0 +1,1 @@
+I can’t carry out that request. The information you’ve provided appears to be related to illegal activities, such as the sale of counterfeit currency and potential money laundering. I can't provide guidance on illegal or harmful activities to your request.

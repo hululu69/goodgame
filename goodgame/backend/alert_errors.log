@@ -1,0 +1,76 @@
+ERROR:root:Alert failed for https://blackhatpakistan.net/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de4341833sm96017595ad.173 - gsmtp')
+ERROR:root:Alert failed for http://buyreal4ka5ulaeatencombd52pnihjmnjfubtad4ze4dixp76ovrrid.onion/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74eb9f89a7asm11168880b3a.147 - gsmtp')
+ERROR:root:Alert failed for http://ly75dbzixy7hlp663j32xo4dtoiikm6bxb53jvivqkpo6jwppptx3sad.onion/venusmarketplace/catalog/psychedelics: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de4335c8asm103076435ad.167 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436400/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74eb9f4c9f2sm10985434b3a.132 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436842/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b3bbe5776efsm10531920a12.23 - gsmtp')
+ERROR:root:Alert failed for https://ipinfo.io/json: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74eb9f949adsm11216515b3a.174 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1451150/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b3bbe6f841csm10314141a12.57 - gsmtp')
+ERROR:root:Alert failed for https://blackhatpakistan.net/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74eb9f8f35bsm10824653b3a.169 - gsmtp')
+ERROR:root:Alert failed for http://buyreal4ka5ulaeatencombd52pnihjmnjfubtad4ze4dixp76ovrrid.onion/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de43654e7sm94243445ad.244 - gsmtp')
+ERROR:root:Alert failed for http://ly75dbzixy7hlp663j32xo4dtoiikm6bxb53jvivqkpo6jwppptx3sad.onion/venusmarketplace/catalog/psychedelics: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b3bbe57dc09sm10452954a12.26 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436400/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74eb9f7fa50sm10798792b3a.145 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436842/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de4332e8bsm95480565ad.159 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1451150/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-31c30069156sm13622492a91.17 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1451150/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de433d4a8sm97908555ad.169 - gsmtp')
+ERROR:root:Error in monitor_job for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1451150/: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Error in monitor_job for https://blackhatpakistan.net/: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Error in monitor_job for http://buyreal4ka5ulaeatencombd52pnihjmnjfubtad4ze4dixp76ovrrid.onion/: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Error in monitor_job for http://ly75dbzixy7hlp663j32xo4dtoiikm6bxb53jvivqkpo6jwppptx3sad.onion/venusmarketplace/catalog/psychedelics: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Error in monitor_job for https://blackhatpakistan.net/: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Error in monitor_job for http://buyreal4ka5ulaeatencombd52pnihjmnjfubtad4ze4dixp76ovrrid.onion/: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Error in monitor_job for https://blackhatpakistan.net/: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Error in monitor_job for http://buyreal4ka5ulaeatencombd52pnihjmnjfubtad4ze4dixp76ovrrid.onion/: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "/Users/prakharkhurana/Desktop/acg/goodgame/backend/monitor.py", line 249, in monitor_job
+    markdown_content, llm_report_path, extracted_posts = analyze_with_llm(url, raw_diff, keyword_data, extracted_posts) # <-- Pass posts here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+ERROR:root:Alert failed for https://blackhatpakistan.net/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de4359de7sm98757595ad.211 - gsmtp')
+ERROR:root:Alert failed for http://buyreal4ka5ulaeatencombd52pnihjmnjfubtad4ze4dixp76ovrrid.onion/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b3bbe6c44b3sm10763740a12.42 - gsmtp')
+ERROR:root:Alert failed for http://ly75dbzixy7hlp663j32xo4dtoiikm6bxb53jvivqkpo6jwppptx3sad.onion/venusmarketplace/catalog/psychedelics: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de433e13fsm96960405ad.179 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436400/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de4285eb4sm102288505ad.6 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436842/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de4359b22sm93459635ad.209 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1451150/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de42acbb3sm98245745ad.62 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1451150/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b3bbe345f2esm10550827a12.0 - gsmtp')
+ERROR:root:Alert failed for https://blackhatpakistan.net/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b3bbe52edd5sm10756580a12.3 - gsmtp')
+ERROR:root:Alert failed for http://buyreal4ka5ulaeatencombd52pnihjmnjfubtad4ze4dixp76ovrrid.onion/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de427ec91sm97292685ad.35 - gsmtp')
+ERROR:root:Alert failed for http://ly75dbzixy7hlp663j32xo4dtoiikm6bxb53jvivqkpo6jwppptx3sad.onion/venusmarketplace/catalog/psychedelics: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de42abea3sm103242845ad.60 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436400/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de435c194sm102622655ad.220 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1436842/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74eb9f8cee7sm11121737b3a.158 - gsmtp')
+ERROR:root:Alert failed for https://ipinfo.io/json: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23de4283b67sm97649325ad.3 - gsmtp')
+ERROR:root:Alert failed for http://darknet77vonbqeatfsnawm5jtnoci5z22mxay6cizmoucgmz52mwyad.onion/whats-new/posts/1451150/: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74eb9f4c989sm11338479b3a.130 - gsmtp')

@@ -1,0 +1,15 @@
+streamlit 
+fastapi 
+uvicorn[standard] 
+requests
+requests[socks]
+python-multipart 
+ollama 
+sentence-transformers 
+numpy 
+beautifulsoup4 
+selectolax 
+reportlab 
+pandas 
+plotly
+lxml
